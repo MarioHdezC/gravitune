@@ -8,6 +8,10 @@
   A macOS music visualizer that turns the album artwork of what you're playing into a living, flowing background.
 </p>
 
+<p align="center">
+  <img src="docs/demo.gif" width="800" alt="Gravitune showing an album cover over a flowing background in the colors of the artwork">
+</p>
+
 ## Features
 
 - **Follows your player:** shows the current track from Spotify or Apple Music.
@@ -78,6 +82,16 @@ xcodebuild test -scheme VisualEngine-Package -destination 'platform=macOS'
 ```
 
 Set `SNAPSHOT_DIR` to a folder to export the frames rendered by the renderer tests as PNG files.
+
+## Contributing
+
+Contributions are welcome. The `main` branch is protected, so all changes go through a pull request:
+
+1. Fork the repository and create a branch from `main`.
+2. Make your change, adding tests where it makes sense.
+3. Run the tests and open a pull request against `main`.
+
+Every pull request needs an approving review from the maintainer before it can be merged.
 
 ## Privacy
 
