@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/MarioHdezC/gravitune/actions/workflows/ci.yml"><img src="https://github.com/MarioHdezC/gravitune/actions/workflows/ci.yml/badge.svg" alt="CI status"></a>
+</p>
+
+<p align="center">
   <img src="docs/demo.gif" width="800" alt="Gravitune showing an album cover over a flowing background in the colors of the artwork">
 </p>
 
@@ -75,13 +79,13 @@ Views only talk to view models, and view models reach external systems through t
 
 ## Testing
 
-Run the tests of the app and of the package:
+Run the tests of the app and of the package with Xcode's toolchain:
 
 ```sh
 xcodebuild test -project gravitune.xcodeproj -scheme gravitune -destination 'platform=macOS'
 
 cd Packages/VisualEngine
-xcodebuild test -scheme VisualEngine-Package -destination 'platform=macOS'
+xcrun swift test
 ```
 
 Set `SNAPSHOT_DIR` to a folder to export the frames rendered by the renderer tests as PNG files.
@@ -94,7 +98,8 @@ Contributions are welcome. The `main` branch is protected, so all changes go thr
 2. Make your change, adding tests where it makes sense.
 3. Run the tests and open a pull request against `main`.
 
-Every pull request needs an approving review from the maintainer before it can be merged.
+Every pull request needs passing CI checks and an approving review from the maintainer before it
+can be merged.
 
 ## Privacy
 

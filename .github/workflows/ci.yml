@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Build and test
+    runs-on: xcode-27
+    timeout-minutes: 30
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Test the app
+        run: >
+          xcodebuild test
+          -project gravitune.xcodeproj
+          -scheme gravitune
+          -destination 'platform=macOS'
+          CODE_SIGNING_ALLOWED=NO
+      - name: Test the package
+        working-directory: Packages/VisualEngine
+        run: swift test
