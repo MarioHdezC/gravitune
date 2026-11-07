@@ -20,21 +20,28 @@
 
 The visual reacts to the artwork, not to the audio: Gravitune doesn't capture or analyze sound.
 
-## Requirements
+## Download
 
-- macOS 26.0 or later
-- Xcode 27 or later to build from source
-- Spotify or Apple Music
+1. Download the latest `.dmg` from [Releases](https://github.com/MarioHdezC/gravitune/releases/latest).
+2. Open it and drag Gravitune to your Applications folder.
+3. Open the app and start playing something.
 
-## Getting started
+Requires macOS 26.0 or later, and Spotify or Apple Music. The app is signed and notarized by Apple.
+
+The first time Gravitune reads a player, macOS asks for permission to control it.
+If you deny it, you can enable it later in **System Settings › Privacy & Security › Automation**.
+
+## Building from source
+
+Requires Xcode 27 or later.
 
 1. Clone the repository and open `gravitune.xcodeproj`.
 2. In the **gravitune** target, under **Signing & Capabilities**, select your own team.
    The project uses the author's team by default, so signing fails without this change.
 3. Build and run with ⌘R.
 
-The first time Gravitune reads a player, macOS asks for permission to control it.
-If you deny it, you can enable it later in **System Settings › Privacy & Security › Automation**.
+To create a signed and notarized disk image, run `scripts/release.sh <version>`.
+The script explains what it needs.
 
 ## Keyboard shortcuts
 
