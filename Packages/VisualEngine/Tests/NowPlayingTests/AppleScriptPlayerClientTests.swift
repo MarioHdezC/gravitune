@@ -16,6 +16,7 @@ struct AppleScriptPlayerClientTests {
 
     @Test(arguments: MusicPlayer.allCases)
     func scriptsCompileWithoutThePlayer(player: MusicPlayer) throws {
+        guard isInstalled(player) else { return }
         let script = try #require(NSAppleScript(source: AppleScriptPlayerClient.snapshotSource(for: player)))
         var error: NSDictionary?
 
@@ -36,6 +37,7 @@ struct AppleScriptPlayerClientTests {
         .setRepeat(.off), .setRepeat(.all), .setRepeat(.one), .setVolume(40)
     ])
     func commandsCompileWithoutThePlayer(player: MusicPlayer, command: PlayerCommand) throws {
+        guard isInstalled(player) else { return }
         let script = try #require(NSAppleScript(source: AppleScriptPlayerClient.commandSource(command, for: player)))
         var error: NSDictionary?
 
@@ -120,6 +122,11 @@ struct AppleScriptPlayerClientTests {
         let result = list(Self.playing, "", "", "", "", "")
 
         #expect(AppleScriptPlayerClient.parse(result, player: .spotify, at: .now).track == nil)
+    }
+
+    /// AppleScript can't compile a script for an app that isn't on the Mac, such as on CI.
+    private func isInstalled(_ player: MusicPlayer) -> Bool {
+        NSWorkspace.shared.urlForApplication(withBundleIdentifier: player.bundleIdentifier) != nil
     }
 
     private func list(_ state: OSType, _ fields: String...) -> NSAppleEventDescriptor {
