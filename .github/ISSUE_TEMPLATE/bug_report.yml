@@ -1,0 +1,70 @@
+name: Bug report
+description: Report something that doesn't work as expected.
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Gravitune
+        2. Play a song in Spotify
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: gravitune-version
+    attributes:
+      label: Gravitune version
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: "26.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: mac
+    attributes:
+      label: Mac
+      options:
+        - Apple silicon
+        - Intel
+    validations:
+      required: true
+  - type: dropdown
+    id: player
+    attributes:
+      label: Music player
+      options:
+        - Spotify
+        - Apple Music
+        - Both
+        - Not related to a player
+    validations:
+      required: true
+  - type: dropdown
+    id: display
+    attributes:
+      label: Display
+      options:
+        - Built-in or main display
+        - External display over HDMI
+        - External display over AirPlay
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Screenshots, videos or anything else that may help.
