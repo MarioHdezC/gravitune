@@ -6,7 +6,7 @@
 //
 
 import Testing
-@testable import gravitune
+@testable import Gravitune
 
 struct DisplayViewModelTests {
     private static let television = ExternalDisplay(id: 7, name: "TV")

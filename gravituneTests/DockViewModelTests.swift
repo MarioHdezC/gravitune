@@ -7,7 +7,7 @@
 
 import Foundation
 import Testing
-@testable import gravitune
+@testable import Gravitune
 
 struct DockViewModelTests {
     private static let handle = CGPoint(x: 500, y: 762)

@@ -22,7 +22,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A7137F26309E6DF1003FEE08 /* gravitune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gravitune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7137F26309E6DF1003FEE08 /* Gravitune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gravitune.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7137F50309E6E20003FEE08 /* gravituneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gravituneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,7 +67,7 @@
 		A7137F27309E6DF1003FEE08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7137F26309E6DF1003FEE08 /* gravitune.app */,
+				A7137F26309E6DF1003FEE08 /* Gravitune.app */,
 				A7137F50309E6E20003FEE08 /* gravituneTests.xctest */,
 			);
 			name = Products;
@@ -95,7 +95,7 @@
 				A7137F44309E6E10003FEE08 /* NowPlaying */,
 			);
 			productName = gravitune;
-			productReference = A7137F26309E6DF1003FEE08 /* gravitune.app */;
+			productReference = A7137F26309E6DF1003FEE08 /* Gravitune.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A7137F52309E6E20003FEE08 /* gravituneTests */ = {
@@ -331,7 +331,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mariohernandez.gravitune;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Gravitune;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -362,7 +362,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mariohernandez.gravitune;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Gravitune;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -393,7 +393,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 6.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gravitune.app/Contents/MacOS/gravitune";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gravitune.app/Contents/MacOS/Gravitune";
 			};
 			name = Debug;
 		};
@@ -415,7 +415,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 6.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gravitune.app/Contents/MacOS/gravitune";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gravitune.app/Contents/MacOS/Gravitune";
 			};
 			name = Release;
 		};

@@ -8,7 +8,7 @@
 import NowPlaying
 import Testing
 import VisualEngine
-@testable import gravitune
+@testable import Gravitune
 
 struct NowPlayingViewModelTests {
     private let provider = FakeNowPlayingProvider()

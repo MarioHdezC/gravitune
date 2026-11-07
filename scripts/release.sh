@@ -26,7 +26,7 @@ if [[ -n "$(git status --porcelain)" ]]; then
 fi
 
 scheme="gravitune"
-app_name="gravitune.app"
+app_name="Gravitune.app"
 identity="Developer ID Application"
 notary_profile="${NOTARY_PROFILE:-notary}"
 team_id="${TEAM_ID:-$(grep -m1 'DEVELOPMENT_TEAM = ' gravitune.xcodeproj/project.pbxproj | sed -E 's/.*= (.*);/\1/')}"

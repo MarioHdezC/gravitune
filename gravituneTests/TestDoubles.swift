@@ -10,7 +10,7 @@ import CoreGraphics
 import NowPlaying
 import Observation
 import Testing
-@testable import gravitune
+@testable import Gravitune
 
 @Observable
 final class FakeNowPlayingProvider: NowPlayingProviding {

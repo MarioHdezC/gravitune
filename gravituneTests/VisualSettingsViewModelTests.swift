@@ -7,7 +7,7 @@
 
 import Testing
 import VisualEngine
-@testable import gravitune
+@testable import Gravitune
 
 struct VisualSettingsViewModelTests {
     @Test func changesReachTheRenderer() throws {
