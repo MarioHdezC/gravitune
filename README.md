@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="gravitune/Resources/AppIcon.icon/Assets/ocean.png" width="128" alt="Gravitune icon">
-</p>
-
 <h1 align="center">Gravitune</h1>
 
 <p align="center">
