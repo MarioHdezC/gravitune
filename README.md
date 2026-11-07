@@ -22,7 +22,7 @@ The visual reacts to the artwork, not to the audio: Gravitune doesn't capture or
 
 ## Requirements
 
-- macOS 26.7 or later
+- macOS 26.0 or later
 - Xcode 27 or later to build from source
 - Spotify or Apple Music
 
