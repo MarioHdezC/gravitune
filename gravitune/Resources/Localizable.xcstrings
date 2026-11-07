@@ -1,0 +1,345 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ ms": {
+      "shouldTranslate": false
+    },
+    "Aurora": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aurora"
+          }
+        }
+      }
+    },
+    "Back to This Display": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volver a esta pantalla"
+          }
+        }
+      }
+    },
+    "Connect a TV via HDMI or AirPlay": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conecta una tele por HDMI o AirPlay"
+          }
+        }
+      }
+    },
+    "Display": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pantalla"
+          }
+        }
+      }
+    },
+    "For AirPlay, use Control Center › Screen Mirroring, choose the TV, and select Use As Extended Display.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En AirPlay, usa Centro de control › Duplicar pantalla, elige la tele y selecciona Pantalla ampliada."
+          }
+        }
+      }
+    },
+    "GPU": {
+      "shouldTranslate": false
+    },
+    "Gravitune": {
+      "shouldTranslate": false
+    },
+    "Hide Controls": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar controles"
+          }
+        }
+      }
+    },
+    "Liquid": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Líquido"
+          }
+        }
+      }
+    },
+    "Metal is not available": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metal no está disponible"
+          }
+        }
+      }
+    },
+    "Missing permission to read %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falta el permiso para leer %@"
+          }
+        }
+      }
+    },
+    "Next": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siguiente"
+          }
+        }
+      }
+    },
+    "Ocean": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mar"
+          }
+        }
+      }
+    },
+    "Open Automation Settings": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Ajustes de Automatización"
+          }
+        }
+      }
+    },
+    "Open Spotify or Apple Music": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre Spotify o Apple Music"
+          }
+        }
+      }
+    },
+    "Pause": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pausar"
+          }
+        }
+      }
+    },
+    "Paused · %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En pausa · %@"
+          }
+        }
+      }
+    },
+    "Play": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reproducir"
+          }
+        }
+      }
+    },
+    "Play a song to get started": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pon una canción para empezar"
+          }
+        }
+      }
+    },
+    "Play or Pause": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reproducir o pausar"
+          }
+        }
+      }
+    },
+    "Playback": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reproducción"
+          }
+        }
+      }
+    },
+    "Previous": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anterior"
+          }
+        }
+      }
+    },
+    "Repeat": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repetir"
+          }
+        }
+      }
+    },
+    "Resolution": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resolución"
+          }
+        }
+      }
+    },
+    "Show Controls": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar controles"
+          }
+        }
+      }
+    },
+    "Showing on %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrando en %@"
+          }
+        }
+      }
+    },
+    "Shuffle": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aleatorio"
+          }
+        }
+      }
+    },
+    "Size": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamaño"
+          }
+        }
+      }
+    },
+    "Speed": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Velocidad"
+          }
+        }
+      }
+    },
+    "Style": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estilo"
+          }
+        }
+      }
+    },
+    "The TV is mirroring this display. To send it only the visual, choose Use As Extended Display in Control Center › Screen Mirroring.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La tele está duplicando esta pantalla. Para enviarle solo el visual, elige Pantalla ampliada en Centro de control › Duplicar pantalla."
+          }
+        }
+      }
+    },
+    "This Mac": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este Mac"
+          }
+        }
+      }
+    },
+    "Visual": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visual"
+          }
+        }
+      }
+    },
+    "Volume": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volumen"
+          }
+        }
+      }
+    },
+    "Warp": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deformación"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

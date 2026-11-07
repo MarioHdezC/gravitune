@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7137F40309E6E10003FEE08 /* VisualEngine in Frameworks */ = {isa = PBXBuildFile; productRef = A7137F41309E6E10003FEE08 /* VisualEngine */; };
+		A7137F43309E6E10003FEE08 /* NowPlaying in Frameworks */ = {isa = PBXBuildFile; productRef = A7137F44309E6E10003FEE08 /* NowPlaying */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7137F59309E6E20003FEE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7137F1E309E6DF1003FEE08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7137F25309E6DF1003FEE08;
+			remoteInfo = gravitune;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7137F26309E6DF1003FEE08 /* gravitune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gravitune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7137F50309E6E20003FEE08 /* gravituneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gravituneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A7137F28309E6DF1003FEE08 /* gravitune */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = gravitune;
+			sourceTree = "<group>";
+		};
+		A7137F51309E6E20003FEE08 /* gravituneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = gravituneTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7137F23309E6DF1003FEE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				A7137F40309E6E10003FEE08 /* VisualEngine in Frameworks */,
+				A7137F43309E6E10003FEE08 /* NowPlaying in Frameworks */,
+			);
+		};
+		A7137F54309E6E20003FEE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7137F1D309E6DF1003FEE08 = {
+			isa = PBXGroup;
+			children = (
+				A7137F28309E6DF1003FEE08 /* gravitune */,
+				A7137F51309E6E20003FEE08 /* gravituneTests */,
+				A7137F27309E6DF1003FEE08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7137F27309E6DF1003FEE08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7137F26309E6DF1003FEE08 /* gravitune.app */,
+				A7137F50309E6E20003FEE08 /* gravituneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7137F25309E6DF1003FEE08 /* gravitune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7137F33309E6DF3003FEE08 /* Build configuration list for PBXNativeTarget "gravitune" */;
+			buildPhases = (
+				A7137F22309E6DF1003FEE08 /* Sources */,
+				A7137F23309E6DF1003FEE08 /* Frameworks */,
+				A7137F24309E6DF1003FEE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				A7137F28309E6DF1003FEE08 /* gravitune */,
+			);
+			name = gravitune;
+			packageProductDependencies = (
+				A7137F41309E6E10003FEE08 /* VisualEngine */,
+				A7137F44309E6E10003FEE08 /* NowPlaying */,
+			);
+			productName = gravitune;
+			productReference = A7137F26309E6DF1003FEE08 /* gravitune.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7137F52309E6E20003FEE08 /* gravituneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7137F56309E6E20003FEE08 /* Build configuration list for PBXNativeTarget "gravituneTests" */;
+			buildPhases = (
+				A7137F53309E6E20003FEE08 /* Sources */,
+				A7137F54309E6E20003FEE08 /* Frameworks */,
+				A7137F55309E6E20003FEE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7137F5A309E6E20003FEE08 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7137F51309E6E20003FEE08 /* gravituneTests */,
+			);
+			name = gravituneTests;
+			productName = gravituneTests;
+			productReference = A7137F50309E6E20003FEE08 /* gravituneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7137F1E309E6DF1003FEE08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					A7137F25309E6DF1003FEE08 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					A7137F52309E6E20003FEE08 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = A7137F25309E6DF1003FEE08;
+					};
+				};
+			};
+			buildConfigurationList = A7137F21309E6DF1003FEE08 /* Build configuration list for PBXProject "gravitune" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+				Base,
+			);
+			mainGroup = A7137F1D309E6DF1003FEE08;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A7137F42309E6E10003FEE08 /* XCLocalSwiftPackageReference "Packages/VisualEngine" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A7137F27309E6DF1003FEE08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7137F25309E6DF1003FEE08 /* gravitune */,
+				A7137F52309E6E20003FEE08 /* gravituneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7137F24309E6DF1003FEE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		A7137F55309E6E20003FEE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7137F22309E6DF1003FEE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		A7137F53309E6E20003FEE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7137F5A309E6E20003FEE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7137F25309E6DF1003FEE08 /* gravitune */;
+			targetProxy = A7137F59309E6E20003FEE08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A7137F31309E6DF3003FEE08 /* Debug configuration for PBXProject "gravitune" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = AVS58LAT4C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7137F32309E6DF3003FEE08 /* Release configuration for PBXProject "gravitune" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = AVS58LAT4C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A7137F34309E6DF3003FEE08 /* Debug configuration for PBXNativeTarget "gravitune" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gravitune.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVS58LAT4C;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "To show the song and artwork of what's playing in Spotify or Apple Music.";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariohernandez.gravitune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A7137F35309E6DF3003FEE08 /* Release configuration for PBXNativeTarget "gravitune" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gravitune.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVS58LAT4C;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "To show the song and artwork of what's playing in Spotify or Apple Music.";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariohernandez.gravitune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A7137F57309E6E20003FEE08 /* Debug configuration for PBXNativeTarget "gravituneTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVS58LAT4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariohernandez.gravituneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gravitune.app/Contents/MacOS/gravitune";
+			};
+			name = Debug;
+		};
+		A7137F58309E6E20003FEE08 /* Release configuration for PBXNativeTarget "gravituneTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVS58LAT4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariohernandez.gravituneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gravitune.app/Contents/MacOS/gravitune";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7137F21309E6DF1003FEE08 /* Build configuration list for PBXProject "gravitune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7137F31309E6DF3003FEE08 /* Debug configuration for PBXProject "gravitune" */,
+				A7137F32309E6DF3003FEE08 /* Release configuration for PBXProject "gravitune" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		A7137F33309E6DF3003FEE08 /* Build configuration list for PBXNativeTarget "gravitune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7137F34309E6DF3003FEE08 /* Debug configuration for PBXNativeTarget "gravitune" */,
+				A7137F35309E6DF3003FEE08 /* Release configuration for PBXNativeTarget "gravitune" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		A7137F56309E6E20003FEE08 /* Build configuration list for PBXNativeTarget "gravituneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7137F57309E6E20003FEE08 /* Debug configuration for PBXNativeTarget "gravituneTests" */,
+				A7137F58309E6E20003FEE08 /* Release configuration for PBXNativeTarget "gravituneTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A7137F42309E6E10003FEE08 /* XCLocalSwiftPackageReference "Packages/VisualEngine" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/VisualEngine;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7137F41309E6E10003FEE08 /* VisualEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VisualEngine;
+		};
+		A7137F44309E6E10003FEE08 /* NowPlaying */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NowPlaying;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A7137F1E309E6DF1003FEE08 /* Project object */;
+	validationLevel = 1;
+}
